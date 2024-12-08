@@ -1,0 +1,1 @@
+This React component uses the `useEffect` hook incorrectly, leading to an infinite render loop.  The `useEffect` hook has a dependency array that's missing the necessary variables, resulting in the effect running on every render.
